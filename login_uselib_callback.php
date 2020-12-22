@@ -13,7 +13,7 @@ error_reporting(E_ALL);
 /// ส่วนการกำหนดค่านี้สามารถทำเป็นไฟล์ include แทนได้
 define('LINE_LOGIN_CHANNEL_ID','1655446451');
 define('LINE_LOGIN_CHANNEL_SECRET','a9e4604d9bdd9f851ca97ae505d59b1a');
-define('LINE_LOGIN_CALLBACK_URL','http://localhost/login/login_uselib_callback.php');
+define('LINE_LOGIN_CALLBACK_URL','172.31.5.13/login/login_uselib_callback.php');
  
 $LineLogin = new LineLoginLib(
     LINE_LOGIN_CHANNEL_ID, LINE_LOGIN_CHANNEL_SECRET, LINE_LOGIN_CALLBACK_URL);
